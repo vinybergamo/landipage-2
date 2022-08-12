@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+}
+
+.nav-bg-color {
+    background-color: #B74C4C6B;
+}
+
+img, p, h1, h2 {
+    user-select: none;
+    pointer-events: none;
+}
+
+.section-1 {
+    background-color: #B05555A1;
+    background-size: cover;
+}
+
+.sec-1-btn {
+    padding: 15px 75px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: 100ms;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.sec-1-btn:hover {
+    background-color: transparent;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.bi {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    transition: 100ms;
+}
+
+.bi:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.active:hover {
+    text-decoration: underline;
+}
+
+.sec-2-img-back {
+    background-color: #B74C4C59;
+}
+
+.sec-2-btn {
+    background-color: #C0694D78;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.sec-2-btn:hover {
+    background-color: transparent;
+    color: #C0694D78;
+}
+
+.section-5 {
+    background-color: #B74C4C59;
+}
+
+.sec-5-text-back {
+    background-color: #fff;
+}
+
+.sec-5-btn {
+    background-color: #C0694D78;
+    transition: 100ms;
+}
+
+.sec-5-btn:hover {
+    background-color: transparent;
+    color: #C0694D78;
+    letter-spacing: 2px;
+}
+
+.section-6 {
+    background-image: url(images/SEC-6-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-7 {
+    background-color: #B74C4C59;
+    height: 20rem;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.img-2 {
+    position: relative;
+    top: 100px
+}
+
+.img-3 {
+    position: relative;
+    top: 200px
+}
+
+.footer {
+    position: relative;
+    top: 325px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #B05555A1;
+}
